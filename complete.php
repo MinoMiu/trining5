@@ -1,0 +1,11 @@
+<?php
+include('header.php');
+?>
+<main>
+    <h2>お問い合わせありがとうございました</h2>
+</main>
+<?php
+include('footer.php');
+?>
+</body>
+</html>

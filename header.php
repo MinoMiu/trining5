@@ -19,13 +19,11 @@
     <span class="hamburger__line hamburger__line--2"></span>
     <span class="hamburger__line hamburger__line--3"></span>
   </div>
-  <nav class="sp-nav">
-    <div class="header_logo_hamburger">
-        <img src="./image/logo.png" width="100px" alt=""></div>  
+  <nav class="sp-nav">  
     <ul>
-      <li>スケジュール</li>
-      <li>アクセス</li>
-      <li>席予約</li>
+      <li><a href="#schedule">スケジュール</a></li>
+      <li><a href="#access">アクセス</a></li>
+      <li><a href="#reserve">席予約</a></li>
     </ul>
   </nav>
   <div class="black-bg" id="js-black-bg"></div>
@@ -36,9 +34,9 @@
         <img src="./image/logo.png" width="100px" alt=""></div>
         <div class="header_content2">
         <ul>
-        <li><a href="#">スケジュール</a></li>  
-        <li><a href="#">アクセス</a></li>  
-        <li><a href="#">席予約</a></li>
+        <li><a href="#schedule">スケジュール</a></li>  
+        <li><a href="#access">アクセス</a></li>  
+        <li><a href="#reserve">席予約</a></li>
         </ul>
         </div>
     </div>

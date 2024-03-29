@@ -276,6 +276,13 @@ form th{
   width: 5em;
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 70px; /* ずらしたい高さ */
+  margin-top: -70px; /* heightに対するネガティブマージン */
+  visibility: hidden,
+}
 
 @media screen and (min-width: 755px) {
     .nav-wrapper {
@@ -301,7 +308,7 @@ hamburger(ハンバーガーアイコン)
   }
   
   .hamburger__line {
-    position: absolute;
+    position: fixed;
     width: 50px;
     height: 3px;
     right: 0;
@@ -311,21 +318,25 @@ hamburger(ハンバーガーアイコン)
   }
   
   .hamburger__line--1 {
-    top: 1px;
+    top: 15px;
+    right:10px;
   }
   
   .hamburger__line--2 {
-    top: 18px;
+    top: 32px;
+    right:10px;
   }
   
   .hamburger__line--3 {
-    top: 36px;
+    top: 51px;
+    right:10px;
   }
   
   /*ハンバーガーがクリックされたら*/
   .open .hamburger__line--1 {
     transform: rotate(-45deg);
-    top: 11px;
+    top: 30px;
+    right: 10px;
   }
   
   .open .hamburger__line--2 {
@@ -334,7 +345,8 @@ hamburger(ハンバーガーアイコン)
   
   .open .hamburger__line--3 {
     transform: rotate(45deg);
-    top: 11px;
+    top: 30px;
+    right: 10px;
   }
   
   /* 
@@ -345,7 +357,6 @@ hamburger(ハンバーガーアイコン)
     top: -100%; /*ハンバーガーがクリックされる前はWindow上部に隠す*/
     left: 0;
     width: 100%; /* 出てくるスライドメニューの幅 */
-    height:60vh;
     background-color: #BEA574;
     transition: all 0.5s;
     z-index: 200;
@@ -354,7 +365,7 @@ hamburger(ハンバーガーアイコン)
   
   /*ハンバーガーがクリックされたら上からスライド*/
   .open .sp-nav {
-    top: 0px;
+    top: 70px;
   }
   
   
@@ -403,7 +414,4 @@ nav.sp-nav ul li a {
     text-decoration :none;
 }
 
-.header_logo_hamburger {
-    padding: 20px;
-}
 }

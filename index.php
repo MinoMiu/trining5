@@ -18,23 +18,23 @@ include('header.php');
     </div>
 </div>
 
-<div class="text_content">今年も始まる<span>夏祭り</span></div>
+<div class="text_content" >今年も始まる<span>夏祭り</span></div>
 
-<div class="schedule_title" id="1schedule">
+<div class="schedule_title" id="schedule">
     <p>スケジュール</p>
 </div>
-<div class="schedule">
+<div class="schedule" >
     <div class="schedule_1 active ">9月1日</div>
     <div class="schedule_1">9月2日</div>
     <div class="schedule_1">9月3日</div>
 </div>
-<div class="schedule_content">
+<div class="schedule_content" >
     <div class="content current "><p>9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容</p></div>
     <div class="content"><p>9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容</p></div>
     <div class="content"><p>9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容</p></div>
 </div>
 
-<div class="map">アクセス</div>
+<div class="map" id="access">アクセス</div>
 <div class="adress">〒771-1154 徳島県徳島市応神町東貞方南川淵</div>
 
 <div style="text-align:center;"  class="p_map">
@@ -47,7 +47,7 @@ include('header.php');
     referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
-<form action="confirm.php" method="post"　class="reserve">
+<form action="confirm.php" method="post"　class="reserve" id="reserve">
     <h1>席予約</h1>
     <div class="input-area">
 		<p>お名前<span>*必須</span></p>

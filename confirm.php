@@ -14,8 +14,6 @@ $name = $_POST['name'];
 $pref = $_POST['pref'];
 $email = $_POST['email'];
 $tel = $_POST['tel'];
-
-
 ?>
 
 <main>

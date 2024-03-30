@@ -240,7 +240,7 @@ input[type="text"],input[type="email"],input[type="tel"],input[type="submit"],se
 }
 
 
-.btn-border :disabled {
+.btn-border:disabled {
   opacity: 0.5;
 }
 
@@ -314,8 +314,8 @@ hamburger(ハンバーガーアイコン)
   
   .hamburger__line {
     position: fixed;
-    width: 50px;
-    height: 3px;
+    width: 35px;
+    height: 2px;
     right: 0;
     background-color:white;
     transition: all 0.5s;
@@ -328,12 +328,12 @@ hamburger(ハンバーガーアイコン)
   }
   
   .hamburger__line--2 {
-    top: 32px;
+    top: 30px;
     right:10px;
   }
   
   .hamburger__line--3 {
-    top: 51px;
+    top: 45px;
     right:10px;
   }
   
@@ -415,7 +415,6 @@ hamburger(ハンバーガーアイコン)
 nav.sp-nav ul li a {
     display: block;
     color: white;
-    padding: 1em 0;
     text-decoration :none;
 }
 
@@ -441,6 +440,22 @@ span {
 
 h2 {
   font-size: 18px;
+}
+}
+
+@media screen and (max-width: 700px) {
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: #BEA574;
+  height: 10px;
+  width: 10px;
+  margin: 0 12px;
 }
 
 }

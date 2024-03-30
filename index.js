@@ -18,7 +18,7 @@ const swiper = new Swiper('.swiper', {
   },
   slidesPerView: 1.5,
   centeredSlides: true,
-  spaceBetween: 20, 
+  spaceBetween: 10, 
   loop: true,
   navigation: {
       prevEl: '.swiper-button-prev',

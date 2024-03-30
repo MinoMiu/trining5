@@ -39,7 +39,7 @@ include('header.php');
 
 <div style="text-align:center;"  class="p_map">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17229.39540348641!2d134.51490905605274!3d34.105931180243566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355373ed759c66e3%3A0x105b8dc379d7b0b1!2z5ZCJ6YeO5bed5YyX5bK46YGL5YuV5bqD5aC044K944OV44OI44Oc44O844Or5aC0Q-mdog!5e0!3m2!1sja!2sjp!4v1711289454092!5m2!1sja!2sjp" 
-    max-width="700"
+    max-width="750"
     width="100%"
     height="450" 
     style="border:0;" 

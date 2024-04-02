@@ -121,6 +121,10 @@ span {
   font-weight: bold;
 }
 
+.main_schedule {
+  padding: 4%;
+}
+
 .schedule {
   height: 35px;
   font-size: 16px;
@@ -149,7 +153,6 @@ span {
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
-  
 }
 
 .active {
@@ -173,6 +176,9 @@ span {
   min-width:350px ;
 }
 
+.p_map {
+  padding: 4%;
+}
 
 .adress {
   margin: 15px auto;
@@ -184,6 +190,13 @@ span {
 form {
   text-align: center;
   margin-top: 40px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+form p {
+  text-align: left;
 }
 
 h1 {
@@ -208,7 +221,8 @@ form span {
   
 }
 input[type="text"],input[type="email"],input[type="tel"],input[type="submit"],select,button {
-  width: 350px;
+  max-width: 400px;
+  width: 100%;
   height: 30px;
 }
 

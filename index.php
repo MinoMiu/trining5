@@ -23,6 +23,7 @@ include('header.php');
 <div class="schedule_title" id="schedule">
     <p>スケジュール</p>
 </div>
+<div class="main_schedule">
 <div class="schedule" >
     <div class="schedule_1 active ">9月1日</div>
     <div class="schedule_1">9月2日</div>
@@ -32,6 +33,7 @@ include('header.php');
     <div class="content current "><p>9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容9月1日の内容</p></div>
     <div class="content"><p>9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容9月2日の内容</p></div>
     <div class="content"><p>9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容9月3日の内容</p></div>
+</div>
 </div>
 
 <div class="map" id="access">アクセス</div>

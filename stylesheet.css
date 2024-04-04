@@ -122,7 +122,7 @@ span {
 }
 
 .main_schedule {
-  padding: 4%;
+  padding: 10px;
 }
 
 .schedule {
@@ -177,7 +177,7 @@ span {
 }
 
 .p_map {
-  padding: 4%;
+  padding: 10px;
 }
 
 .adress {
@@ -226,6 +226,7 @@ input[type="text"],input[type="email"],input[type="tel"],input[type="submit"],se
   height: 30px;
 }
 
+
 .btn-border {
   margin: auto;
   background-color: #BEA574;
@@ -242,7 +243,7 @@ input[type="text"],input[type="email"],input[type="tel"],input[type="submit"],se
 
 .btn-border_1 {
   margin: auto;
-  max-width: 70px;
+  max-width: 70px !important;
   width: 100%;
   background-color: #BEA574;
   display: inline-block;

@@ -13,8 +13,9 @@ if($_SERVER["REQUEST_METHOD"] != "POST"){
 $name = $_POST['name'];
 $pref = $_POST['pref'];
 $email = $_POST['email'];
-$tel = $_POST['tel'];
+$phone = $_POST['phone'];
 ?>
+
 
 <main>
 <form action="complete.php" method="post">
@@ -34,7 +35,7 @@ $tel = $_POST['tel'];
 		</tr>
 		<tr><th class="input-area_confirm">
 		<label>電話番号</label></th>
-		<td><?php echo htmlspecialchars($tel,ENT_QUOTES,'UTF-8');?></td>
+		<td><?php echo htmlspecialchars($phone,ENT_QUOTES,'UTF-8');?></td>
 		</tr>
 	</table>
     <div class="input-area_confirm">

@@ -52,6 +52,7 @@ $(document).ready(function () {
     console.log($('form input[type="text"]').val())
     console.log($('form input[type="email"]').val())
     console.log($('form select').val())
+    console.log($('form select').val())
     if (
       $('form input[type="text"]').val() !== "" &&
       $('form input[type="email"]').val() !== "" &&

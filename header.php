@@ -21,9 +21,9 @@
   </div>
   <nav class="sp-nav">  
     <ul>
-      <li><a href="#schedule">スケジュール</a></li>
-      <li><a href="#access">アクセス</a></li>
-      <li><a href="#reserve">席予約</a></li>
+      <li><a href="./#schedule">スケジュール</a></li>
+      <li><a href="./#access">アクセス</a></li>
+      <li><a href="./#reserve">席予約</a></li>
     </ul>
   </nav>
   <div class="black-bg" id="js-black-bg"></div>
@@ -34,9 +34,9 @@
         <img src="./image/logo.png" width="100px" alt=""></div>
         <div class="header_content2">
         <ul>
-        <li><a href="#schedule">スケジュール</a></li>  
-        <li><a href="#access">アクセス</a></li>  
-        <li><a href="#reserve">席予約</a></li>
+        <li><a href="./#schedule">スケジュール</a></li>  
+        <li><a href="./#access">アクセス</a></li>  
+        <li><a href="./#reserve">席予約</a></li>
         </ul>
         </div>
     </div>

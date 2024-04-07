@@ -39,7 +39,7 @@ $phone = $_POST['phone'];
 		</tr>
 	</table>
     <div class="input-area_confirm">
-	 		<input type='button' onclick='history.back()' value='戻る' class="btn-border_1">
+	 		<input type='button' onclick='history.back()' value='戻る' class="btn-border_2">
 	 		<input type="submit" name="submit" value="送信" class="btn-border_1">
 	 		<input type="hidden" name="name" value="<?php echo $name;?>">
             <input type="hidden" name="pref" value="<?php echo $pref;?>">

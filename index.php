@@ -84,9 +84,3 @@ include('header.php');
 <?php
 include('footer.php');
 ?>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script src="./index.js"></script>
-
-</body>
-</html>
